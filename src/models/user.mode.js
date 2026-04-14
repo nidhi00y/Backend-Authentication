@@ -15,6 +15,9 @@ const userSchema = new mongoose.Schema({
         type:'string',
         require:true,
     },
+    refreshToken:{
+        type:'string',
+    }
 })
 
     const usermodel = mongoose.model("User",userSchema)
