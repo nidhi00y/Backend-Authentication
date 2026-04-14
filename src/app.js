@@ -1,6 +1,6 @@
 import express from 'express'
 import morgan from 'morgan'
-import authrouter from './config/routes/user.route.js'
+import authrouter from './routes/user.route.js'
 
 const app = express()
 
